@@ -4,7 +4,9 @@ import {
   Heading,
   Text,
   Button,
-  Stack
+  Stack,
+  Box,
+  Link
 } from "@chakra-ui/react";
 import HeroIcon from "./HeroIcon";
 
@@ -18,7 +20,9 @@ const HeroTitle = () => {
         </Stack>
       </Stack>
       <Text color='#757575'>
-      I would think that conserving our natural resources should be a conservative position: Not to waste food, and not to throw away a lot of the food that we buy.
+      Hai,, perkenalkan nama saya samuel harold wiradhika, seorang frontend developer. Ini adalah proyek tes awal internship di elemes.id, berikut adalah link website:<br/>
+      <Box><Link color='blue' href='https://samuel-intern-tes-elemes.vercel.app/'>website</Link></Box>
+      <Box><Link color='blue' href='https://github.com/samuelharold568/elemes.id'>link github</Link></Box>
       </Text>
       <Flex  gap='16px'>
         <Button color='white' px='18px' py='10px' borderRadius='100px' bg='#8BAC3E'>Daftar Sekarang</Button>
